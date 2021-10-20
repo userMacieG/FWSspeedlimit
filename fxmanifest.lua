@@ -1,17 +1,17 @@
-fx_version 'bodacious'
+fx_version "bodacious"
+game "gta5"
+lua54 "yes"
 
-game 'gta5'
+client_scripts {
+    "config.lua",
+    "client/main.lua"
+}
 
-version 'v1.0'
-
-Author 'Free World Scripts'
-
-client_script 'nui.lua'
-
-ui_page 'html/index.html'
+ui_page "html/app.html"
 
 files {
-    'html/index.css',
-    'html/index.js',
-    'html/index.html'
+    "html/images/sign.png",
+    "html/css/app.css",
+    "html/js/app.js",
+    "html/app.html"
 }

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
+
+body {
+	font-family: 'Sawarabi Gothic', sans-serif;
+	margin: 0;
+}
+
+#speedlimit {
+	position: absolute;
+	left: 22.0vh;
+	bottom: 3.4vh;
+	height: 8.0vh;
+	width: 6.0vh;
+	line-height: 11.0vh;
+	text-align: center;
+	font-size: 1.8vh;
+	font-weight: bold;
+	background-image: url("../images/sign.png");
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
