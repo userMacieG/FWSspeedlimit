@@ -6,6 +6,7 @@ body {
 }
 
 #speedlimit {
+	display: none;
 	position: absolute;
 	left: 22.0vh;
 	bottom: 3.4vh;

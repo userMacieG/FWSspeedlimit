@@ -1,4 +1,7 @@
 Config = {}
+
+Config.OnlyDriver = true
+
 Config.Speedlimits = {
 	["AIRP"] = 10, -- Los Santos International Airport
 	["ALAMO"] = 20, -- Alamo Sea
